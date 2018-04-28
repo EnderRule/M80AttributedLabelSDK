@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		66D3DE40209410B700BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66D3DE50209410DC00BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE47209410DC00BA0FAD /* M80AttributedLabel.h */; };
-		66D3DE51209410DC00BA0FAD /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE48209410DC00BA0FAD /* M80AttributedLabel.m */; };
-		66D3DE52209410DC00BA0FAD /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE49209410DC00BA0FAD /* M80AttributedLabelAttachment.h */; };
-		66D3DE53209410DC00BA0FAD /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE4A209410DC00BA0FAD /* M80AttributedLabelAttachment.m */; };
-		66D3DE54209410DC00BA0FAD /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE4B209410DC00BA0FAD /* M80AttributedLabelDefines.h */; };
-		66D3DE55209410DC00BA0FAD /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE4C209410DC00BA0FAD /* M80AttributedLabelURL.h */; };
-		66D3DE56209410DC00BA0FAD /* M80AttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE4D209410DC00BA0FAD /* M80AttributedLabelURL.m */; };
-		66D3DE57209410DC00BA0FAD /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE4E209410DC00BA0FAD /* NSMutableAttributedString+M80.h */; };
-		66D3DE58209410DC00BA0FAD /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE4F209410DC00BA0FAD /* NSMutableAttributedString+M80.m */; };
+		66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3DE64209411F300BA0FAD /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */; };
+		66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3DE66209411F300BA0FAD /* M80AttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE5D209411F300BA0FAD /* M80AttributedLabelAttachment.m */; };
+		66D3DE67209411F300BA0FAD /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5E209411F300BA0FAD /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3DE68209411F300BA0FAD /* M80AttributedLabelURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5F209411F300BA0FAD /* M80AttributedLabelURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3DE69209411F300BA0FAD /* M80AttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE60209411F300BA0FAD /* M80AttributedLabelURL.m */; };
+		66D3DE6A209411F300BA0FAD /* NSMutableAttributedString+M80.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE61209411F300BA0FAD /* NSMutableAttributedString+M80.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3DE6B209411F300BA0FAD /* NSMutableAttributedString+M80.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE62209411F300BA0FAD /* NSMutableAttributedString+M80.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66D3DE3B209410B700BA0FAD /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
 		66D3DE3F209410B700BA0FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66D3DE47209410DC00BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
-		66D3DE48209410DC00BA0FAD /* M80AttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabel.m; sourceTree = "<group>"; };
-		66D3DE49209410DC00BA0FAD /* M80AttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelAttachment.h; sourceTree = "<group>"; };
-		66D3DE4A209410DC00BA0FAD /* M80AttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelAttachment.m; sourceTree = "<group>"; };
-		66D3DE4B209410DC00BA0FAD /* M80AttributedLabelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelDefines.h; sourceTree = "<group>"; };
-		66D3DE4C209410DC00BA0FAD /* M80AttributedLabelURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelURL.h; sourceTree = "<group>"; };
-		66D3DE4D209410DC00BA0FAD /* M80AttributedLabelURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelURL.m; sourceTree = "<group>"; };
-		66D3DE4E209410DC00BA0FAD /* NSMutableAttributedString+M80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+M80.h"; sourceTree = "<group>"; };
-		66D3DE4F209410DC00BA0FAD /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
+		66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
+		66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabel.m; sourceTree = "<group>"; };
+		66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelAttachment.h; sourceTree = "<group>"; };
+		66D3DE5D209411F300BA0FAD /* M80AttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelAttachment.m; sourceTree = "<group>"; };
+		66D3DE5E209411F300BA0FAD /* M80AttributedLabelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelDefines.h; sourceTree = "<group>"; };
+		66D3DE5F209411F300BA0FAD /* M80AttributedLabelURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelURL.h; sourceTree = "<group>"; };
+		66D3DE60209411F300BA0FAD /* M80AttributedLabelURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelURL.m; sourceTree = "<group>"; };
+		66D3DE61209411F300BA0FAD /* NSMutableAttributedString+M80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+M80.h"; sourceTree = "<group>"; };
+		66D3DE62209411F300BA0FAD /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,28 +64,27 @@
 		66D3DE3D209410B700BA0FAD /* M80AttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
-				66D3DE46209410DC00BA0FAD /* Classes */,
+				66D3DE59209411F300BA0FAD /* Classes */,
 				66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */,
 				66D3DE3F209410B700BA0FAD /* Info.plist */,
 			);
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
 		};
-		66D3DE46209410DC00BA0FAD /* Classes */ = {
+		66D3DE59209411F300BA0FAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				66D3DE47209410DC00BA0FAD /* M80AttributedLabel.h */,
-				66D3DE48209410DC00BA0FAD /* M80AttributedLabel.m */,
-				66D3DE49209410DC00BA0FAD /* M80AttributedLabelAttachment.h */,
-				66D3DE4A209410DC00BA0FAD /* M80AttributedLabelAttachment.m */,
-				66D3DE4B209410DC00BA0FAD /* M80AttributedLabelDefines.h */,
-				66D3DE4C209410DC00BA0FAD /* M80AttributedLabelURL.h */,
-				66D3DE4D209410DC00BA0FAD /* M80AttributedLabelURL.m */,
-				66D3DE4E209410DC00BA0FAD /* NSMutableAttributedString+M80.h */,
-				66D3DE4F209410DC00BA0FAD /* NSMutableAttributedString+M80.m */,
+				66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */,
+				66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */,
+				66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */,
+				66D3DE5D209411F300BA0FAD /* M80AttributedLabelAttachment.m */,
+				66D3DE5E209411F300BA0FAD /* M80AttributedLabelDefines.h */,
+				66D3DE5F209411F300BA0FAD /* M80AttributedLabelURL.h */,
+				66D3DE60209411F300BA0FAD /* M80AttributedLabelURL.m */,
+				66D3DE61209411F300BA0FAD /* NSMutableAttributedString+M80.h */,
+				66D3DE62209411F300BA0FAD /* NSMutableAttributedString+M80.m */,
 			);
-			name = Classes;
-			path = ../../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,12 +94,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D3DE54209410DC00BA0FAD /* M80AttributedLabelDefines.h in Headers */,
-				66D3DE52209410DC00BA0FAD /* M80AttributedLabelAttachment.h in Headers */,
+				66D3DE67209411F300BA0FAD /* M80AttributedLabelDefines.h in Headers */,
+				66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */,
 				66D3DE40209410B700BA0FAD /* M80AttributedLabel.h in Headers */,
-				66D3DE55209410DC00BA0FAD /* M80AttributedLabelURL.h in Headers */,
-				66D3DE50209410DC00BA0FAD /* M80AttributedLabel.h in Headers */,
-				66D3DE57209410DC00BA0FAD /* NSMutableAttributedString+M80.h in Headers */,
+				66D3DE68209411F300BA0FAD /* M80AttributedLabelURL.h in Headers */,
+				66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */,
+				66D3DE6A209411F300BA0FAD /* NSMutableAttributedString+M80.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D3DE58209410DC00BA0FAD /* NSMutableAttributedString+M80.m in Sources */,
-				66D3DE51209410DC00BA0FAD /* M80AttributedLabel.m in Sources */,
-				66D3DE56209410DC00BA0FAD /* M80AttributedLabelURL.m in Sources */,
-				66D3DE53209410DC00BA0FAD /* M80AttributedLabelAttachment.m in Sources */,
+				66D3DE6B209411F300BA0FAD /* NSMutableAttributedString+M80.m in Sources */,
+				66D3DE64209411F300BA0FAD /* M80AttributedLabel.m in Sources */,
+				66D3DE69209411F300BA0FAD /* M80AttributedLabelURL.m in Sources */,
+				66D3DE66209411F300BA0FAD /* M80AttributedLabelAttachment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +301,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = M80AttributedLabel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.net.online.M80AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -321,6 +321,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = M80AttributedLabel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.net.online.M80AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
