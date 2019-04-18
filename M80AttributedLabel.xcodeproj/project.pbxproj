@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66D3DE40209410B700BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D3DE64209411F300BA0FAD /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */; };
 		66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		66D3DE3B209410B700BA0FAD /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
 		66D3DE3F209410B700BA0FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
 		66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabel.m; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				66D3DE59209411F300BA0FAD /* Classes */,
-				66D3DE3E209410B700BA0FAD /* M80AttributedLabel.h */,
 				66D3DE3F209410B700BA0FAD /* Info.plist */,
 			);
 			path = M80AttributedLabel;
@@ -96,7 +93,6 @@
 			files = (
 				66D3DE67209411F300BA0FAD /* M80AttributedLabelDefines.h in Headers */,
 				66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */,
-				66D3DE40209410B700BA0FAD /* M80AttributedLabel.h in Headers */,
 				66D3DE68209411F300BA0FAD /* M80AttributedLabelURL.h in Headers */,
 				66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */,
 				66D3DE6A209411F300BA0FAD /* NSMutableAttributedString+M80.h in Headers */,
