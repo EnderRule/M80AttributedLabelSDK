@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66B5DFB523505B85004C90D8 /* M80AttributedLabelURLDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B5DFB323505B85004C90D8 /* M80AttributedLabelURLDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B5DFB623505B85004C90D8 /* M80AttributedLabelURLDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B5DFB423505B85004C90D8 /* M80AttributedLabelURLDetector.m */; };
 		66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66D3DE64209411F300BA0FAD /* M80AttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */; };
 		66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66B5DFB323505B85004C90D8 /* M80AttributedLabelURLDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabelURLDetector.h; sourceTree = "<group>"; };
+		66B5DFB423505B85004C90D8 /* M80AttributedLabelURLDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80AttributedLabelURLDetector.m; sourceTree = "<group>"; };
 		66D3DE3B209410B700BA0FAD /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D3DE3F209410B700BA0FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80AttributedLabel.h; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 		66D3DE59209411F300BA0FAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				66B5DFB323505B85004C90D8 /* M80AttributedLabelURLDetector.h */,
+				66B5DFB423505B85004C90D8 /* M80AttributedLabelURLDetector.m */,
 				66D3DE5A209411F300BA0FAD /* M80AttributedLabel.h */,
 				66D3DE5B209411F300BA0FAD /* M80AttributedLabel.m */,
 				66D3DE5C209411F300BA0FAD /* M80AttributedLabelAttachment.h */,
@@ -95,6 +101,7 @@
 				66D3DE65209411F300BA0FAD /* M80AttributedLabelAttachment.h in Headers */,
 				66D3DE68209411F300BA0FAD /* M80AttributedLabelURL.h in Headers */,
 				66D3DE63209411F300BA0FAD /* M80AttributedLabel.h in Headers */,
+				66B5DFB523505B85004C90D8 /* M80AttributedLabelURLDetector.h in Headers */,
 				66D3DE6A209411F300BA0FAD /* NSMutableAttributedString+M80.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,7 +133,7 @@
 		66D3DE32209410B700BA0FAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1100;
 				TargetAttributes = {
 					66D3DE3A209410B700BA0FAD = {
 						CreatedOnToolsVersion = 9.2;
@@ -140,6 +147,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 66D3DE31209410B700BA0FAD;
 			productRefGroup = 66D3DE3C209410B700BA0FAD /* Products */;
@@ -168,6 +176,7 @@
 			files = (
 				66D3DE6B209411F300BA0FAD /* NSMutableAttributedString+M80.m in Sources */,
 				66D3DE64209411F300BA0FAD /* M80AttributedLabel.m in Sources */,
+				66B5DFB623505B85004C90D8 /* M80AttributedLabelURLDetector.m in Sources */,
 				66D3DE69209411F300BA0FAD /* M80AttributedLabelURL.m in Sources */,
 				66D3DE66209411F300BA0FAD /* M80AttributedLabelAttachment.m in Sources */,
 			);
@@ -190,6 +199,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -197,6 +207,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -248,6 +259,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -255,6 +267,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
